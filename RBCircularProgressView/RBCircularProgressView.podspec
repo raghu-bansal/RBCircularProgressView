@@ -9,7 +9,7 @@ Pod::Spec.new do |spec|
  spec.platform     = :ios
   spec.platform     = :ios, "11.0"
   spec.source       = {:git => "https://github.com/raghu-bansal/RBCircularProgressView.git", :tag => spec.version.to_s }
-  spec.source_files  = "RBCircularProgressViewq/RBCircularProgressView/**/*.{h,m,swift}"
+  spec.source_files  = "RBCircularProgressView/**/*.{h,m,swift}"
   spec.authors      = { 'Raghu Bansal' => 'raghubansal56@gmail.com' }
   spec.swift_version = "5.0"
 end
